@@ -6,7 +6,7 @@
 
 Giao diện FE được xây bằng **Streamlit**.\
 LLM chạy ở BE được host bằng **Ollama** thông qua **Colab +
-Pinggy/ngrok**.
+Pinggy**.
 
 Ứng dụng hỗ trợ:\
 ✅ Login / Register\
@@ -22,21 +22,16 @@ Pinggy/ngrok**.
     project/
     │── app.py
     │── data/
-    │── 2a_ollama_pinggy_ngrok.py
+    │── model_LLM.ipynb
     │── README.md
-    │── requirements.txt
 
 ------------------------------------------------------------------------
 
 ## 2. Cài đặt & chạy hệ thống
 
-### 2.1. Máy local
+### Colab backend
 
-    pip install -r requirements.txt
-
-### 2.2. Colab backend
-
-Chạy file `2a_ollama_pinggy_ngrok.py` để tạo server Ollama + Pinggy.
+Chạy file `model.ipynb` trên **Google Colab** để tạo server Ollama + Pinggy.
 
 ------------------------------------------------------------------------
 
@@ -82,9 +77,3 @@ Giữ các yếu tố cốt lõi: origin, destination, dates, interests, pace.
 -   Qwen 1.5B → chi tiết hơn
 
 ------------------------------------------------------------------------
-
-## 6. Tác giả
-
-Sinh viên: ...\
-Môn: Computational Thinking\
-Dự án: Smart Tourism System 2025
