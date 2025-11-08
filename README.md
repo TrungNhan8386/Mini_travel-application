@@ -36,7 +36,7 @@ Chạy file `model.ipynb` trên **Google Colab** để tạo server Ollama + Pin
 ------------------------------------------------------------------------
 
 ## 3. Chạy Streamlit
-
+    pip install streamlit
     streamlit run app.py
 Sao chép link được tạo từ **Pinggy** rồi dán vào phần **Server settings** trên **web Streamlit**, nếu kết quả được trả về là 200 thì đã kết nối với Model thành công
 
